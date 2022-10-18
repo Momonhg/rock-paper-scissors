@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Rock, Paper, Scissors</title>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>The Rock Paper Scissors Game</h1>
+    <h2 id="winner">Win ten rounds to be the victor</h2>
+    <h2>
+      Player <span id="p-score">0</span> - <span id="c-score">0</span> Computer
+    </h2>
+    <div class="display-moves">
+      <div class="move">
+        <img id="p-move" src="./images/icon-rock.svg">
+      </div>
+      <div class="separator">VS</div>
+      <div class="move">
+        <img id="c-move" src="./images/icon-scissors.svg">
+      </div>
+    </div>
+    <h2>Click on the image below to select your move:<h2>
+      <h3 id="status">Status</h3>
+    <div class="action">
+      <input id="rock"class="options rock" type="image" src="./images/icon-rock.svg" value="rock" />
+      <input id="paper"class="options paper" type="image" src="./images/icon-paper.svg" value="paper" />
+      <input id="scissors"class="options scissors" type="image" src="./images/icon-scissors.svg" value="scissors" />
+    </div>
+  </div>
+
+
+
+  <p>ⓒ Copyright 2022. momonhg</p>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+
+
+</body>
+
+</html>
