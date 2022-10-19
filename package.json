@@ -1,0 +1,19 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "rock, paper, scissors, lizard, spock",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Momonhg/rock-paper-scissors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Momonhg/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/Momonhg/rock-paper-scissors#readme"
+}
